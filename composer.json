@@ -1,8 +1,8 @@
 {
-    "name": "markushausammann/zend1-sentry",
+    "name": "orderbird/zend1-sentry",
     "description": "A Zend Framework 1 module that lets you log to the Sentry service.",
     "keywords": ["log", "logging", "sentry", "raven", "zend-framework"],
-    "homepage": "https://github.com/markushausammann/zend1-sentry",
+    "homepage": "https://github.com/orderbird/zend1-sentry",
     "type": "library",
     "version": "0.1.0",
     "license": "New BSD License",
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "raven/raven": "0.9.1"
+        "sentry/sentry": "1.*"
     },
     "autoload": {
         "psr-0": {
